@@ -15,11 +15,11 @@
     <div class="background">
         <div class="container">
             <div class="todoinput">
-                <input type="text" class="addtext" placeholder="Enter todo">
-                <img class="addimg" onclick="addListItem()" src="https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_1-512.png">       
+                <input type="text" class="textinput" placeholder="Enter todo">
+                <input type="image" class="submitbutton" onclick="getValue(), addListElement()" src="https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_1-512.png">       
             </div>
             <div class="listcontainer">
-                <div class="listitems">
+                <div class="listitems" id="taskcontainer">
                                       
                 </div>
             </div>
