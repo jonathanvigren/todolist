@@ -13,6 +13,10 @@
     margin:10vh auto 0;
     background:rgb(35, 36, 36);
     overflow:auto;
+    border-radius:10px;
+}
+#container{
+    height:900px;
 }
 .todoinput{
     text-align:center;
@@ -42,13 +46,23 @@
     margin-left:-50px;
 }
 .listitems{
-    margin-top:15px;
 }
 .item{
-    background:green;
+    background:rgb(56, 56, 56);
     text-align:center;
     margin:0 auto;
     width:400px;
     height:50px;
-    border: 1px solid red;
+    color:rgb(228, 228, 228);
+    font-size:24px;
+    margin-top:5px;
+}
+.trash{
+    font-size:34px;
+    float:right;
+}
+.checkbox{
+    float:left;
+    width:50px;
+    height:50px;
 }
